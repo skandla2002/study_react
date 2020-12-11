@@ -14,7 +14,7 @@ export default function Todo(todo) {
 Todo.propTypes = {
     id: PropTypes.string.isRequired
 }
-Todo.defaultProp = {
+Todo.defaultProps = {
     text: '할일을 입력 하세요',
     isComplete: false
 }
