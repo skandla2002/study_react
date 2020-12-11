@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TodoLayoutComponent from './components/TodoLayoutComponent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <TodoLayoutComponent title = "새로 시작하는 Todo"/>
     </div>
   );
 }
